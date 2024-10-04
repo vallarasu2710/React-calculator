@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import "../App.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faSun } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {faSun } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -38,9 +38,9 @@ export default function App() {
   <div className="container"> 
       
       <div className="buttondiv" >
-        <div style={{color:'red',textAlign:"center",marginBottom:"150px"}}>
+        {/* <div style={{color:'red',textAlign:"center",marginBottom:"150px"}}>
         <FontAwesomeIcon icon={faSun}/>
-        </div>
+        </div> */}
          
 
           <input type="text" id="display" value={input} placeholder="Enter the value"/>
